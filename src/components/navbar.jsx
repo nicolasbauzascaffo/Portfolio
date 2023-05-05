@@ -42,6 +42,7 @@ const Navbar = () => {
     <AppBar
       id='navbar'
       className={`navbar ${isScrolled ? "scrolled" : ""}`}
+      position="fixed"
       sx={{
         transition: "background-color 0.5s",
         backgroundColor:

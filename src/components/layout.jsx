@@ -4,7 +4,7 @@ import Navbar from '../components/navbar'
 
 const Layout = () => {
     return (
-        <div>
+        <div style={{width:'100%'}} >
             <Navbar/>
             <Outlet/>
         </div>
