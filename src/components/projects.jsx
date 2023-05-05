@@ -8,23 +8,23 @@ import { Link } from "react-router-dom";
 
 const images = [
   {
-    url: "/public/e-commerce.jpg",
+    url: "/e-commerce.jpg",
     title: "E - Commerce App",
     width: "33.3%",
   },
   {
-    url: "/public/movies.webp",
+    url: "/movies.webp",
     title: "Movies App",
     width: "33.3%",
     page: 'https://gomoviesapp.netlify.app/'
   },
   {
-    url: "/public/pokedex.jpg",
+    url: "/pokedex.jpg",
     title: "Pokedex",
     width: "33.3%",
   },
   {
-    url: "/public/crowded-concert-fall-with-singer-on-stage-e2a8829b.jpeg",
+    url: "/crowded-concert-fall-with-singer-on-stage-e2a8829b.jpeg",
     title: "Music App",
     width: "33.3%",
   },
