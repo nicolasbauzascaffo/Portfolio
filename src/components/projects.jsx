@@ -23,6 +23,11 @@ const images = [
     title: "Pokedex",
     width: "33.3%",
   },
+  {
+    url: "/public/crowded-concert-fall-with-singer-on-stage-e2a8829b.jpeg",
+    title: "Music App",
+    width: "33.3%",
+  },
 ];
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
