@@ -11,6 +11,10 @@
     "footer" auto;
 }
 
+.navigate {
+  display: none;
+}
+
 .navbar {
   grid-area: navbar;
 }
@@ -48,7 +52,6 @@
       "footer" auto;
   }
 }
-
 
 @media only screen and (max-device-width: 1000px) and (orientation: landscape) {
   .home {

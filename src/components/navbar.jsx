@@ -43,6 +43,7 @@ const Navbar = () => {
 
   return (
     <AppBar
+      id='navbar'
       className={`navbar ${isScrolled ? "scrolled" : ""}`}
       position="fixed"
       sx={{
