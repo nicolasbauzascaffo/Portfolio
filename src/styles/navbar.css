@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.navbar {
+  padding: 0 10%;
+}
+
+.navbar.scrolled {
+  background: rgb(158, 62, 162);
+  background: linear-gradient(
+    90deg,
+    rgba(158, 62, 162, 1) 0%,
+    rgba(198, 76, 88, 1) 100%
+  );
+}

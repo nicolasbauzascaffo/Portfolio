@@ -1,0 +1,39 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skills h2 {
+  color: rgb(0, 255, 255);
+}
+
+.icons {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.icons img {
+  width: 100px;
+}
+
+@media(max-width:800px){
+  .skills img {
+    width: 70px;
+  }
+  .skills {
+    gap: 7px;
+  }
+}

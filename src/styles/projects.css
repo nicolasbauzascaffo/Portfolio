@@ -1,0 +1,24 @@
+.projects {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.projects p {
+    color: white;
+    font-weight: bold;
+}
+
+.projects-links {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

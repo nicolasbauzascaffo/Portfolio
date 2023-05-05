@@ -1,0 +1,57 @@
+.home {
+  display: grid;
+  padding: 0 10%;
+  gap: 10px;
+  grid-template:
+    "navbar" 70px
+    "header" 100vh
+    "about" auto
+    "skills" auto
+    "projects" auto
+    "footer" auto;
+}
+
+.navbar {
+  grid-area: navbar;
+}
+
+.header {
+  grid-area: header;
+}
+
+.about {
+  grid-area: about;
+}
+
+.skills {
+  grid-area: skills;
+}
+
+.projects {
+  grid-area: projects;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+@media (max-width: 650px) {
+  .home {
+    padding: 20px;
+    gap: 10px;
+    grid-template:
+      "navbar" 70px
+      "header" 100vh
+      "about" auto
+      "skills" auto
+      "projects" auto
+      "footer" auto;
+  }
+}
+
+
+@media only screen and (max-device-width: 1000px) and (orientation: landscape) {
+  .home {
+    gap: 100px;
+  }
+}
