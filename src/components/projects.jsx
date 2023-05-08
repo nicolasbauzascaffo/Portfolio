@@ -22,6 +22,7 @@ const images = [
     url: "/pokedex.jpg",
     title: "Pokedex",
     width: "33.3%",
+    page: 'https://github.com/nicolasbauzascaffo/Pokedex'
   },
   {
     url: "/crowded-concert-fall-with-singer-on-stage-e2a8829b.jpeg",
