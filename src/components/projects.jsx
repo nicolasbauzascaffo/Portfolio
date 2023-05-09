@@ -14,7 +14,7 @@ const images = [
   },
   {
     url: "/movies.webp",
-    title: "Movies App",
+    title: "MoviesApp (working on)",
     width: "33.3%",
     page: 'https://gomoviesapp.netlify.app/'
   },
@@ -26,7 +26,7 @@ const images = [
   },
   {
     url: "/crowded-concert-fall-with-singer-on-stage-e2a8829b.jpeg",
-    title: "Music App",
+    title: "MusicApp (working on)",
     width: "33.3%",
   },
 ];
