@@ -16,18 +16,19 @@ const images = [
     url: "/movies.webp",
     title: "MoviesApp",
     width: "33.3%",
-    page: 'https://gomoviesapp.netlify.app/'
+    page: "https://gomoviesapp.netlify.app/",
   },
   {
     url: "/pokedex.jpg",
     title: "Pokedex",
     width: "33.3%",
-    page: 'https://pokedexbauza.netlify.app/'
+    page: "https://pokedexbauza.netlify.app/",
   },
   {
     url: "/crowded-concert-fall-with-singer-on-stage-e2a8829b.jpeg",
-    title: "MusicApp (working on)",
+    title: "MusicApp",
     width: "33.3%",
+    page: "https://github.com/nicolasbauzascaffo/AppMusica",
   },
 ];
 
@@ -114,11 +115,11 @@ export default function Projects() {
           >
             <ImageSrc style={{ backgroundImage: `url(${image.url})` }} />
             <ImageBackdrop className="MuiImageBackdrop-root" />
-            <Link to={image.page} >
+            <Link to={image.page}>
               <Image>
                 <Typography
                   lang="en"
-              translate="no"
+                  translate="no"
                   component="span"
                   variant="subtitle1"
                   color="inherit"
