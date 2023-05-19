@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import "../styles/about.css";
 import photo from "../img/img.png";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
-import cv from "../data/Nicolás Bauzá - CV - Software Developer.pdf";
+import cv from "../data/Nicolás Bauzá - Software Developer.pdf";
 
 const About = () => {
   return (
