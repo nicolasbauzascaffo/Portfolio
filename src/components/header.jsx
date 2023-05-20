@@ -20,13 +20,13 @@ const Header = () => {
             style={{ textDecoration: "none", color: "white" }}
             to="https://github.com/nicolasbauzascaffo"
           >
-            <img src={git} />
+            <img style={{width:'30px'}} src={git} />
           </Link>
           <Link
             style={{ textDecoration: "none", color: "white" }}
             to="https://www.linkedin.com/in/nicol%C3%A1s-bauz%C3%A1-48a8a0244/"
           >
-            <img src={ld} />
+            <img style={{width:'30px'}} src={ld} />
           </Link>
         </section>
       </section>

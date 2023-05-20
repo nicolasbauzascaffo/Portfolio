@@ -24,12 +24,6 @@ const images = [
     width: "33.3%",
     page: "https://pokedexbauza.netlify.app/",
   },
-  {
-    url: "/crowded-concert-fall-with-singer-on-stage-e2a8829b.jpeg",
-    title: "MusicApp",
-    width: "33.3%",
-    page: "https://github.com/nicolasbauzascaffo/AppMusica",
-  },
 ];
 
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
