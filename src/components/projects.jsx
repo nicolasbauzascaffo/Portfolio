@@ -9,8 +9,9 @@ import { Link } from "react-router-dom";
 const images = [
   {
     url: "/e-commerce.jpg",
-    title: "E - Commerce App (working on)",
+    title: "E - Commerce App",
     width: "33.3%",
+    page: "https://hawaiianstore.netlify.app/",
   },
   {
     url: "/movies.webp",
